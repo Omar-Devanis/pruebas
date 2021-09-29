@@ -4,26 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/estilos.css">
+    <link rel="shortcut icon" href="./imagenes/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/9185ab1fae.js" crossorigin="anonymous"></script>
     <title>Login</title>
 </head>
 <body>
     <header>
-        <ul>
-            <li>
-                <img src="./imagenes/logo-sf.png" alt="imagen">
-            </li>
-        </ul>
+        <div class="posicion">
+            <img src="./imagenes/logo-sf.png" alt="imagen" class="imagen">
+        </div>
     </header>
     <main>
-        <ul>
-            <li>Sell In A Flash</li>
-            <li>ID login</li>
-            <li>imput id</li>
-            <li>Password</li>
-            <li>imput password</li>
-            <li>Resover Password</li>
-            <li>Enter</li>
-        </ul>
+        <form class="formulario">
+            <h1>Sell In A Flash</h1>
+            <div class="contenedor">
+                <div class="input-contenedor psc">
+                    <i class="fas fa-user-edit"></i>
+                    <input type="text" placeholder="ID usuario">
+                </div>
+                <div class="input-contenedor psc">
+                    <i class="fas fa-key"></i>
+                    <input type="password" placeholder="Contraseña">
+                </div>
+                <div>
+                    <a>Recuperar Contraseña</a>
+                </div>
+                <div>
+                    <input type="submit" value="Entrar" class="boton">
+                </div>
+            </div>
+        </form>
     </main>
     <footer></footer>
 </body>

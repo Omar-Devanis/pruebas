@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+}
+* {
+    box-sizing: border-box;
+}
+
+.imagen {
+    border-radius: 2px;
+    width: 100px;
+}
+
+.posicion {
+    padding: 20px;
+    
+}
+
+.psc{
+    display: flex;
+    background-color: white;
+    border: 10px solid gray;
+    border-radius: 5px;
+    
+}
+
+.psc > input{
+    outline: none;
+    border: 0px;
+    padding: 2px;
+}
+
+.psc > i {
+    padding: 15px;
+    margin: none;
+}
+.contenedor {
+    width: 100%;
+    padding: 60px;
+    
+}
+
+.formulario {
+    background: rgb(194, 191, 191);
+    margin-top: 150px;
+    padding: 3px;
+    box-shadow: 5px 5px rgb(129, 122, 122);
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+
+.input-contenedor {
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+
+.boton {
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background: black;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover{
+    background: rgb(50, 53, 53);
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 400px;
+        margin-top: 10px;
+        border-radius: 2px;
+    }
+    .posicion{
+        margin: auto;
+        width: 1400px;
+        margin-top: 2px;
+        border-radius: 2px;
+    }
+    }
+}
